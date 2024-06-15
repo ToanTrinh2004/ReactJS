@@ -1,0 +1,11 @@
+.shop{
+    width: 100%;
+    height: 200px;
+    background: blue;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 50px;
+    font-weight: 600;
+    color: white;
+}

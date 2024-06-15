@@ -1,0 +1,7 @@
+.productlist{
+    display: flex;
+    flex-direction: row;
+    gap:50px;
+    margin-top: 30px;
+    margin-left: 100px;
+}

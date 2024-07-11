@@ -5,7 +5,6 @@ import  Product  from './Product'
 function Shop() {
   return (
     <div>
-    <Header/>
     <Hero/>
     <Product/>
     </div>

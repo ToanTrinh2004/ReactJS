@@ -1,12 +1,12 @@
 import React from 'react'
 import all_product from '../Assets/all_product'
 import Items from './Items'
-function Product() {
+function Product(props) {
   return (
     <div className='justify-center flex flex-col px-3 '>
-      <h1 className='text-3xl font-bold mt-4 mb-4 text-center '>ALL PRODUCTS</h1>
+      <h1 className='text-3xl font-bold mt-4 mb-4 text-center '>PRODUCTS FOR {props.category.toUpperCase()}</h1>
       <div className="grid grid-cols-4 gap-4">
-      {all_product.map((item, i) => (
+      {all_product.filter(item=>item.category===props.category).map((item, i) => (
           <Items 
             key={i} 
             name = {item.name}

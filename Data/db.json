@@ -1,0 +1,76 @@
+{
+    "all_product": [
+      {
+        "id": 1,
+        "name": "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+        "category": "women",
+        "image": "product_1.png",
+        "new_price": 50.0,
+        "old_price": 80.5
+      },
+      {
+        "id": 2,
+        "name": "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+        "category": "women",
+        "image": "product_2.png",
+        "new_price": 85.0,
+        "old_price": 120.5
+      },
+      {
+        "id": 3,
+        "name": "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+        "category": "women",
+        "image": "product_3.png",
+        "new_price": 60.0,
+        "old_price": 100.5
+      },
+      {
+        "id": 4,
+        "name": "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+        "category": "women",
+        "image": "product_4.png",
+        "new_price": 100.0,
+        "old_price": 150.0
+      },
+      {
+        "id": 5,
+        "name": "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+        "category": "women",
+        "image": "product_5.png",
+        "new_price": 85.0,
+        "old_price": 120.5
+      },
+      {
+        "id": 6,
+        "name": "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+        "category": "women",
+        "image": "product_6.png",
+        "new_price": 85.0,
+        "old_price": 120.5
+      },
+      {
+        "id": 7,
+        "name": "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+        "category": "women",
+        "image": "product_7.png",
+        "new_price": 85.0,
+        "old_price": 120.5
+      },
+      {
+        "id": 8,
+        "name": "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+        "category": "women",
+        "image": "product_8.png",
+        "new_price": 85.0,
+        "old_price": 120.5
+      },
+      {
+        "id": 9,
+        "name": "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
+        "category": "women",
+        "image": "product_9.png",
+        "new_price": 85.0,
+        "old_price": 120.5
+      }]}
+     
+  

@@ -1,7 +1,11 @@
-import React from 'react'
-import all_product from '../Assets/all_product'
+import React, { useEffect, useState } from 'react'
 import Items from './Items'
+import axios from 'axios'
 function Product(props) {
+  useEffect(()=>{
+    axios.get("http://localhost:3005/all_product").then(res => set_All_product(res.data))
+  },[])
+  const [all_product,set_All_product] = useState([]);
   return (
     <div className='justify-center flex flex-col px-3 '>
       <h1 className='text-3xl font-bold mt-4 mb-4 text-center '>PRODUCTS FOR {props.category.toUpperCase()}</h1>

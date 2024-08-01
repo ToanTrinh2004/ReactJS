@@ -13,7 +13,7 @@ function Items(props) {
         </div>
     </div>
 </div>
-<button className='bg-red-500 text-white font-bold w-40 h-10 justify-self-center top-5 bottom-2'>Add to cart</button>
+
 </div>
   )
 }

@@ -5,13 +5,10 @@ import search from "../Assets/find.png";
 import user from "../Assets/account.png";
 import logout from "../Assets/logout.png"
 import { Link } from 'react-router-dom'
-import { useSelector } from 'react-redux';
 export const Navbar = () => {
   const [menu, setMenu] = useState("");
-  const {cart} = useSelector(store => store.cart);
-  console.log(cart);
+  const UserName = localStorage.getItem("userName")
   return (
-    
     <div className="flex justify-around p-4 shadow-sm  bg-orange-300 sticky">
        <Link to='/'><div className="flex justify-center gap-2 items-center cursor-pointer">
        <img src={logo} alt="" />
@@ -41,13 +38,8 @@ export const Navbar = () => {
          <Link to={'/login'}>
         <img src={user} alt="" className="h-8 w-8" />
         </Link>
-       <div className="relative cursor-pointer">
-       <Link to={'/cart'}> <img src={shopping_cart} alt="" className="h-8 w-8" /></Link>
-       <p className="w-5 h-5 rounded-full text-center bg-red-500 text-white absolute top-[-30%] right-[0] flex items-center justify-center">
-    {cart.length ?? 0}
-  </p>
-       </div>
-      
+       
+        <img src={shopping_cart} alt="" className="h-8 w-8" />
       </div>
     </div>
   );

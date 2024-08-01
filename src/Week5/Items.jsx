@@ -1,11 +1,6 @@
 import React from 'react'
-import { useDispatch } from 'react-redux'
-import { addtoCart } from '../Week5/Redux/slice/cartSlice';
 function Items(props) {
-  const dispatch = useDispatch();
   return (
-    <div>
-
     
     <div className='w-88 p-1 hover:scale-105 transition duration-600'>
     <img src={props.image} alt=""/>
@@ -17,9 +12,6 @@ function Items(props) {
             ${props.old_price}
         </div>
     </div>
-    
-</div>
-
 </div>
   )
 }

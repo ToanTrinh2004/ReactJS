@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import "./Cart.css";
 import { useDispatch } from "react-redux";
 import { removeCart ,increse,decrese } from "./Redux/slice/cartSlice";
-const all_product = JSON.parse(localStorage.getItem("cart"));
+const all_product = JSON.parse(localStorage.getItem("cart")) || [];
 function Cart() {
   const dispatch = useDispatch();
   const delCart = (id) => {
@@ -19,6 +19,7 @@ function Cart() {
       dispatch(removeCart({ id}));
     }
   };
+
   const Subtotal = all_product.reduce(
     (total, item) => total + item.new_price * item.quantity,
     0

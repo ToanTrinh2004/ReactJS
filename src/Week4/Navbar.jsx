@@ -41,7 +41,7 @@ export const Navbar = () => {
          <Link to={'/login'}>
         <img src={user} alt="" className="h-8 w-8" />
         </Link>
-       <div className="relative cursor-pointer">
+       <div onClick={()=>{window.location.reload()}} className="relative cursor-pointer">
        <Link to={'/cart'}> <img src={shopping_cart} alt="" className="h-8 w-8" /></Link>
        <p className="w-5 h-5 rounded-full text-center bg-red-500 text-white absolute top-[-30%] right-[0] flex items-center justify-center">
     {cart.length ?? 0}

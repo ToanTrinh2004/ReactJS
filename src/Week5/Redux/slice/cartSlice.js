@@ -19,6 +19,7 @@ const cartSlice = createSlice({
       
         localStorage.setItem("cart", JSON.stringify(state.cart));
         Notification("Add Successfully");
+        
       },
       
       removeCart(state, action) {

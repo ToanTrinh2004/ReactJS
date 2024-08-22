@@ -9,6 +9,7 @@ import { Hero } from './Week2/Hero';
 import Product from './Week4/Product';
 import Login from './Week4/Login';
 import Cart from './Week5/Cart';
+import SignUp from './Week4/SignUp';
 function App() {
 
   return (
@@ -21,6 +22,7 @@ function App() {
       <Route path='/kid' element={<Product category={"kid"} />}></Route>
       <Route path='/login' element={<Login/>}></Route>
       <Route path='/cart' element={<Cart/>}></Route>
+      <Route path='/signup' element={<SignUp/>}></Route>
     </Routes>
     </main>
   );

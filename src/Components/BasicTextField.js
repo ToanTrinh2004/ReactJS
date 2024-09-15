@@ -6,7 +6,7 @@ function BasicTextField({Label="",type="text",value="",onChange,required , error
     <Box
     component="form"
     sx={{
-      '& > :not(style)': { m: 1, width: '45ch' },
+      '& > :not(style)': { m: 1, width: '95%' },
     }}
     noValidate
     autoComplete="off"

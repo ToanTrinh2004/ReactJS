@@ -1,0 +1,92 @@
+.container{
+    width: 90%;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin-top: 50px;
+    margin-left: auto;      
+    margin-right: auto;  
+   
+}
+.body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container h1{
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.intro{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+.img-bg{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.intro div {
+    max-width: 600px;
+    font-size: 25px;
+    text-align: justify;
+    
+}
+.brand-name {
+    font-weight: bold; 
+    color: #322bf9; 
+    font-style: italic; 
+    
+}
+.collection{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    width: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+.collection img{
+    width: 300px;
+    height: auto;
+}
+.collection img:hover {
+    transform: scale(1.2);
+    transition: transform 0.3s ease;
+}
+.custom-service{
+    width: 1150px;
+    align-self: center;
+}
+.logo{
+    width: 350px;
+}
+.menwear{
+    width: 200px;
+    margin-top: -60px;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}

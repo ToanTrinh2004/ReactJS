@@ -1,76 +1,472 @@
 {
-    "all_product": [
-      {
-        "id": 1,
-        "name": "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
-        "category": "women",
-        "image": "product_1.png",
-        "new_price": 50.0,
-        "old_price": 80.5
-      },
-      {
-        "id": 2,
-        "name": "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
-        "category": "women",
-        "image": "product_2.png",
-        "new_price": 85.0,
-        "old_price": 120.5
-      },
-      {
-        "id": 3,
-        "name": "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
-        "category": "women",
-        "image": "product_3.png",
-        "new_price": 60.0,
-        "old_price": 100.5
-      },
-      {
-        "id": 4,
-        "name": "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
-        "category": "women",
-        "image": "product_4.png",
-        "new_price": 100.0,
-        "old_price": 150.0
-      },
-      {
-        "id": 5,
-        "name": "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
-        "category": "women",
-        "image": "product_5.png",
-        "new_price": 85.0,
-        "old_price": 120.5
-      },
-      {
-        "id": 6,
-        "name": "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
-        "category": "women",
-        "image": "product_6.png",
-        "new_price": 85.0,
-        "old_price": 120.5
-      },
-      {
-        "id": 7,
-        "name": "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
-        "category": "women",
-        "image": "product_7.png",
-        "new_price": 85.0,
-        "old_price": 120.5
-      },
-      {
-        "id": 8,
-        "name": "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
-        "category": "women",
-        "image": "product_8.png",
-        "new_price": 85.0,
-        "old_price": 120.5
-      },
-      {
-        "id": 9,
-        "name": "Striped Flutter Sleeve Overlap Collar Peplum Hem Blouse",
-        "category": "women",
-        "image": "product_9.png",
-        "new_price": 85.0,
-        "old_price": 120.5
-      }]}
-     
-  
+  "products": [
+    {
+      "id": "1",
+      "image_fs": "../Assets/aothun0101.jpg",
+      "image_bs": "../Assets/aothun0102.jpg",
+      "name": "Áo thun Care & Share Pastel",
+      "category": "aothun",
+      "newCost": "149.000",
+      "oldCost": "199.000"
+    },
+    {
+      "id": "2",
+      "image_fs": "../Assets/aothun0201.jpg",
+      "image_bs": "../Assets/aothun0202.jpg",
+      "name": "Áo thun Copper Denim",
+      "category": "aothun",
+      "newCost": "269.000",
+      "oldCost": "299.000"
+    },
+    {
+      "id": "3",
+      "image_fs": "../Assets/aothun0301.jpg",
+      "image_bs": "../Assets/aothun0302.jpg",
+      "name": "Áo thun Excool",
+      "category": "aothun",
+      "newCost": "189.000",
+      "oldCost": "199.000"
+    },
+    {
+      "id": "4",
+      "image_fs": "../Assets/aothun0401.jpg",
+      "image_bs": "../Assets/aothun0402.jpg",
+      "name": "Áo Thun Bóng Đá Cổ V CFA24",
+      "category": "aothun",
+      "newCost": "209.000",
+      "oldCost": "249.000"
+    },
+    {
+      "id": "5",
+      "image_fs": "../Assets/aothun0501.jpg",
+      "image_bs": "../Assets/aothun0502.jpg",
+      "name": "Áo thun chạy bộ CoolFast",
+      "category": "aothun",
+      "newCost": "359.000",
+      "oldCost": "399.000"
+    },
+    {
+      "id": "6",
+      "image_fs": "../Assets/aothun0601.jpg",
+      "image_bs": "../Assets/aothun0602.jpg",
+      "name": "Áo thun thể thao Melange Exdry",
+      "category": "aothun",
+      "newCost": "179.000",
+      "oldCost": "189.000"
+    },
+    {
+      "id": "7",
+      "image_fs": "../Assets/aothun0701.jpg",
+      "image_bs": "../Assets/aothun0702.jpg",
+      "name": "Áo thun chạy bộ Tropical",
+      "category": "aothun",
+      "newCost": "179.000",
+      "oldCost": "199.000"
+    },
+    {
+      "id": "8",
+      "image_fs": "../Assets/aothun0801.jpg",
+      "image_bs": "../Assets/aothun0802.jpg",
+      "name": "Áo thun chạy bộ Graphic Tropical",
+      "category": "aothun",
+      "newCost": "179.000",
+      "oldCost": "199.000"
+    },
+    {
+      "id": "9",
+      "image_fs": "../Assets/aothun0901.jpg",
+      "image_bs": "../Assets/aothun0902.jpg",
+      "name": "Áo thun chạy bộ Heartbeat",
+      "category": "aothun",
+      "newCost": "179.000",
+      "oldCost": "199.000"
+    },
+    {
+      "id": "10",
+      "image_fs": "../Assets/aothun1001.jpg",
+      "image_bs": "../Assets/aothun1002.jpg",
+      "name": "Áo thun Stitch Summer Coconut",
+      "category": "aothun",
+      "newCost": "211.000",
+      "oldCost": "249.000"
+    },
+    {
+      "id": "11",
+      "image_fs": "../Assets/aothun1101.jpg",
+      "image_bs": "../Assets/aothun1102.jpg",
+      "name": "Áo thun Stitch Summer Beach",
+      "category": "aothun",
+      "newCost": "211.000",
+      "oldCost": "249.000"
+    },
+    {
+      "id": "12",
+      "image_fs": "../Assets/aothun1201.jpg",
+      "image_bs": "../Assets/aothun1202.jpg",
+      "name": "Áo thun Stitch Summer Surfing",
+      "category": "aothun",
+      "newCost": "211.000",
+      "oldCost": "249.000"
+    },
+    {
+      "id": "13",
+      "image_fs": "../Assets/aopolo0101.jpg",
+      "image_bs": "../Assets/aopolo0102.jpg",
+      "name": "Áo Polo Thể Thao Active Premium",
+      "category": "aopolo",
+      "newCost": "279.000",
+      "oldCost": "329.000"
+    },
+    {
+      "id": "14",
+      "image_fs": "../Assets/aopolo0201.jpg",
+      "image_bs": "../Assets/aopolo0202.jpg",
+      "name": "Áo Polo Thể Thao Pro Active 1595",
+      "category": "aopolo",
+      "newCost": "249.000",
+      "oldCost": "224.000"
+    },
+    {
+      "id": "15",
+      "image_fs": "../Assets/aopolo0301.jpg",
+      "image_bs": "../Assets/aopolo0302.jpg",
+      "name": "Áo Polo Nam Ice Cooling",
+      "category": "aopolo",
+      "newCost": "279.000",
+      "oldCost": "349.000"
+    },
+    {
+      "id": "16",
+      "image_fs": "../Assets/aopolo0401.jpg",
+      "image_bs": "../Assets/aopolo0402.png",
+      "name": "Áo Polo Nam Pique Cotton",
+      "category": "aopolo",
+      "newCost": "269.000",
+      "oldCost": "299.000"
+    },
+    {
+      "id": "17",
+      "image_fs": "../Assets/aopolo0501.jpg",
+      "image_bs": "../Assets/aopolo0502.jpg",
+      "name": "Áo Polo nam Excool",
+      "category": "aopolo",
+      "newCost": "269.000",
+      "oldCost": "319.000"
+    },
+    {
+      "id": "18",
+      "image_fs": "../Assets/aopolo0601.jpg",
+      "image_bs": "../Assets/aopolo0602.jpg",
+      "name": "Áo Polo Nam Thể Thao Promax",
+      "category": "aopolo",
+      "newCost": "289.000",
+      "oldCost": "369.000"
+    },
+    {
+      "id": "19",
+      "image_fs": "../Assets/aopolo0701.jpg",
+      "image_bs": "../Assets/aopolo0702.jpg",
+      "name": "Áo Polo Nam Cafe",
+      "category": "aopolo",
+      "newCost": "319.000",
+      "oldCost": "399.000"
+    },
+    {
+      "id": "20",
+      "image_fs": "../Assets/aopolo0801.jpg",
+      "image_bs": "../Assets/aopolo0802.jpg",
+      "name": "Áo Polo Nam phối Jeans",
+      "category": "aopolo",
+      "newCost": "359.000",
+      "oldCost": "399.000"
+    },
+    {
+      "id": "21",
+      "image_fs": "../Assets/aopolo0901.jpg",
+      "image_bs": "../Assets/aopolo0902.jpg",
+      "name": "Áo Polo Nam Pique Cotton USA",
+      "category": "aopolo",
+      "newCost": "299.000",
+      "oldCost": "379.000"
+    },
+    {
+      "id": "22",
+      "image_fs": "../Assets/aosomi0101.jpg",
+      "image_bs": "../Assets/aosomi0102.jpg",
+      "name": "Áo Sơ Mi Dài Tay Premium Poplin",
+      "category": "aosomi",
+      "newCost": "449.000",
+      "oldCost": "599.000"
+    },
+    {
+      "id": "23",
+      "image_fs": "../Assets/aosomi0201.jpg",
+      "image_bs": "../Assets/aosomi0202.jpg",
+      "name": "Áo Sơ Mi Dài Tay Essentials",
+      "category": "aosomi",
+      "newCost": "339.000",
+      "oldCost": "399.000"
+    },
+    {
+      "id": "24",
+      "image_fs": "../Assets/aosomi0301.jpg",
+      "image_bs": "../Assets/aosomi0302.jpg",
+      "name": "Áo Sơ mi dài tay Café-DriS",
+      "category": "aosomi",
+      "newCost": "449.000",
+      "oldCost": "499.000"
+    },
+    {
+      "id": "25",
+      "image_fs": "../Assets/aodaitay0101.jpg",
+      "image_bs": "../Assets/aodaitay0102.jpg",
+      "name": "Áo Nỉ chui đầu Essentials",
+      "category": "aodaitay",
+      "newCost": "329.000",
+      "oldCost": "399.000"
+    },
+    {
+      "id": "26",
+      "image_fs": "../Assets/aokhoac0101.jpg",
+      "image_bs": "../Assets/aokhoac0102.jpg",
+      "name": "Áo Khoác Parka Active",
+      "category": "aokhoac",
+      "newCost": "659.000",
+      "oldCost": "749.000"
+    },
+    {
+      "id": "27",
+      "image_fs": "../Assets/aokhoac0201.jpg",
+      "image_bs": "../Assets/aokhoac0202.jpg",
+      "name": "Áo Khoác Jeans Slimfit",
+      "category": "aokhoac",
+      "newCost": "579.000",
+      "oldCost": "699.000"
+    },
+    {
+      "id": "28",
+      "image_fs": "../Assets/aokhoac0301.jpg",
+      "image_bs": "../Assets/aokhoac0302.jpg",
+      "name": "Áo Khoác Minimalist",
+      "category": "aokhoac",
+      "newCost": "549.000",
+      "oldCost": "649.000"
+    },
+    {
+      "id": "30",
+      "image_fs": "../Assets/quanshort0101.jpg",
+      "image_bs": "../Assets/quanshort0102.jpg",
+      "name": "Quần Short Jeans",
+      "category": "quanshort",
+      "newCost": "299.000",
+      "oldCost": "399.000"
+    }
+  ],
+  "user": [
+    {
+      "name": "Toan Trinh",
+      "email": "2251120326@ut.edu.vn",
+      "phone": "0346052945",
+      "password": "Helocoba123aa@",
+      "id": "3c43"
+    },
+    {
+      "name": "Pham Duy",
+      "email": "duyphamthcs@gmail.com",
+      "phone": "029029903",
+      "password": "Duypham2397@",
+      "id": "6ffc"
+    },
+    {
+      "id": "40c2",
+      "name": "Duy Noa",
+      "email": "DuyNoa1111@gmail.com",
+      "phone": "0346052945",
+      "password": "Helocoba123aa@"
+    }
+  ],
+  "order": [
+    {
+      "id": "2e29",
+      "name": "Duy Noa",
+      "email": "DuyNoa1111@gmail.com",
+      "phone": "0346052945",
+      "address": "44333",
+      "deliveryNote": "33444",
+      "paymentMethod": "COD",
+      "products": [
+        {
+          "id": 3,
+          "name": "Áo thun Excool",
+          "iamge": "../Assets/aothun0301.jpg",
+          "quantity": 1,
+          "price": "189.000"
+        },
+        {
+          "id": 4,
+          "name": "Áo Thun Bóng Đá Cổ V CFA24",
+          "iamge": "../Assets/aothun0401.jpg",
+          "quantity": 1,
+          "price": "209.000"
+        }
+      ],
+      "totalAmount": 398,
+      "date": "9/14/2024, 10:14:23 PM",
+      "orderId": "ff039a4f-5ed8-407a-b6d7-496e48eeb6ee"
+    },
+    {
+      "id": "2973",
+      "name": "Duy Noa",
+      "email": "DuyNoa1111@gmail.com",
+      "phone": "0346052945",
+      "address": "gfdd",
+      "deliveryNote": "ddd",
+      "paymentMethod": "COD",
+      "products": [
+        {
+          "id": 5,
+          "name": "Áo thun chạy bộ CoolFast",
+          "iamge": "../Assets/aothun0501.jpg",
+          "quantity": 1,
+          "price": "359.000"
+        }
+      ],
+      "totalAmount": 359,
+      "date": "9/14/2024, 10:17:15 PM",
+      "orderId": "094823e1-e02e-4d56-b693-95d69071e0cf"
+    },
+    {
+      "id": "5d51",
+      "name": "Duy Noa",
+      "email": "DuyNoa1111@gmail.com",
+      "phone": "0346052945",
+      "address": "134433",
+      "deliveryNote": "333",
+      "paymentMethod": "Momo",
+      "products": [
+        {
+          "id": 3,
+          "name": "Áo thun Excool",
+          "iamge": "../Assets/aothun0301.jpg",
+          "quantity": 1,
+          "price": "189.000"
+        },
+        {
+          "id": 2,
+          "name": "Áo thun Copper Denim",
+          "iamge": "../Assets/aothun0201.jpg",
+          "quantity": 1,
+          "price": "269.000"
+        },
+        {
+          "id": 1,
+          "name": "Áo thun Care & Share Pastel",
+          "iamge": "../Assets/aothun0101.jpg",
+          "quantity": 1,
+          "price": "149.000"
+        }
+      ],
+      "totalAmount": 607,
+      "date": "9/14/2024, 10:18:32 PM",
+      "orderId": "203c091a-9f47-42b3-9c15-1b28c2cde667"
+    },
+    {
+      "id": "e266",
+      "name": "Duy Noa",
+      "email": "DuyNoa1111@gmail.com",
+      "phone": "0346052945",
+      "address": "1111",
+      "deliveryNote": "rrrr",
+      "paymentMethod": "COD",
+      "products": [
+        {
+          "id": "2",
+          "name": "Áo thun Copper Denim",
+          "image": "../Assets/aothun0201.jpg",
+          "quantity": 1,
+          "price": "269.000"
+        },
+        {
+          "id": "1",
+          "name": "Áo thun Care & Share Pastel",
+          "image": "../Assets/aothun0101.jpg",
+          "quantity": 1,
+          "price": "149.000"
+        },
+        {
+          "id": "4",
+          "name": "Áo Thun Bóng Đá Cổ V CFA24",
+          "image": "../Assets/aothun0401.jpg",
+          "quantity": 2,
+          "price": "209.000"
+        }
+      ],
+      "totalAmount": 836,
+      "date": "9/15/2024, 11:24:59 AM",
+      "orderId": "6bc0d3fa-3390-452c-9411-a6bb82fd82c1"
+    },
+    {
+      "id": "c3f3",
+      "name": "Duy Noa",
+      "email": "DuyNoa1111@gmail.com",
+      "phone": "0346052945",
+      "address": "1111",
+      "deliveryNote": "111",
+      "paymentMethod": "COD",
+      "products": [
+        {
+          "id": "24",
+          "name": "Áo Sơ mi dài tay Café-DriS",
+          "image": "../Assets/aosomi0301.jpg",
+          "quantity": 1,
+          "price": "449.000"
+        }
+      ],
+      "totalAmount": 449,
+      "date": "9/15/2024, 12:14:08 PM",
+      "orderId": "b401ead6-3b85-4447-8dfd-eacca6fe662f"
+    },
+    {
+      "id": "4aea",
+      "name": "Duy Noa",
+      "email": "DuyNoa1111@gmail.com",
+      "phone": "0346052945",
+      "address": "ff",
+      "deliveryNote": "ff",
+      "paymentMethod": "COD",
+      "products": [
+        {
+          "id": "3",
+          "name": "Áo thun Excool",
+          "image": "../Assets/aothun0301.jpg",
+          "quantity": 1,
+          "price": "189.000"
+        },
+        {
+          "id": "4",
+          "name": "Áo Thun Bóng Đá Cổ V CFA24",
+          "image": "../Assets/aothun0401.jpg",
+          "quantity": 1,
+          "price": "209.000"
+        },
+        {
+          "id": "9",
+          "name": "Áo thun chạy bộ Heartbeat",
+          "image": "../Assets/aothun0901.jpg",
+          "quantity": 1,
+          "price": "179.000"
+        },
+        {
+          "id": "8",
+          "name": "Áo thun chạy bộ Graphic Tropical",
+          "image": "../Assets/aothun0801.jpg",
+          "quantity": 1,
+          "price": "179.000"
+        }
+      ],
+      "totalAmount": 756,
+      "date": "9/15/2024, 12:15:25 PM",
+      "orderId": "1ee6c386-def8-4933-8dfa-c4d4f1d89b7c"
+    }
+  ]
+}

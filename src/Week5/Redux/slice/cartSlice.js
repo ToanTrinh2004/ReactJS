@@ -4,8 +4,7 @@ const cart = JSON.parse(localStorage.getItem("cart")) ?? []
 const cartSlice = createSlice({
     name: 'cart',
     initialState: {
-        cart : [...cart]
-
+        cart : [...cart],
     },
     reducers: {
       addtoCart(state, action) {
@@ -52,14 +51,14 @@ const cartSlice = createSlice({
           if (state.cart[index].quantity > 1) {
             state.cart[index].quantity -= 1;
           } else {
-            state.cart.splice(index, 1); // Remove the item if quantity is 1
+            state.cart.splice(index, 1); 
           }
         }
       
         localStorage.setItem("cart", JSON.stringify(state.cart));
         window.location.reload()
-      }
-      
+      },
+    
       
       
   }

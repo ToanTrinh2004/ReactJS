@@ -10,6 +10,7 @@ function Item(props) {
       oldCost: props.oldCost,
       image_fs: props.image_fs,
       image_bs: props.image_bs,
+      id : props.id
     };
     localStorage.setItem('selectedProduct', JSON.stringify(selectedProduct));
     const breakcum = props.name.toLowerCase().replace(/[^a-z0-9]/g, '');

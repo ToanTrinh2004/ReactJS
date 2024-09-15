@@ -1,6 +1,8 @@
 import React,{useState} from 'react';
 import './ProductDisplay.css';
 import RelateProducts from '../Related/RelateProducts';
+import { useDispatch } from 'react-redux';
+import { addtoCart } from '../../Week5/Redux/slice/cartSlice';
 
 function ProductDisplay() {
     const product = JSON.parse(localStorage.getItem('selectedProduct'));
@@ -9,6 +11,7 @@ function ProductDisplay() {
     
     const [oldCost,setOldCost] = useState(product.oldCost);
     const [size,setSize] = useState("S");
+    const dispatch = useDispatch();
     const handleDecrese = () => {
       if (quantity > 1) {
         setQuantity(quantity - 1);
@@ -74,7 +77,7 @@ function ProductDisplay() {
                   <p className="quantity-btn" id="increase-btn" onClick={handleIncrese}>+</p>
                 </div>
                 <div className="order-submit">
-                  <button type="button" id="add-to-cart-btn">
+                  <button type="button" id="add-to-cart-btn" onClick={()=>dispatch(addtoCart(product))}>
                     Thêm vào giỏ hàng
                   </button>
                 </div>

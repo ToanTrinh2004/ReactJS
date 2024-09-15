@@ -32,6 +32,7 @@ function Popular() {
             image_bs={item.image_bs} 
             newCost={item.newCost} 
             oldCost={item.oldCost} 
+            id = {item.id}
           />
           <div className='flex flex-row gap-2 '>
           <button onClick={()=>{dispatch(addtoCart(item)); navigate("/cart"); window.location.reload(); window.scrollTo(0, 0)}} className='bg-red-500 text-white font-bold w-40 h-10 justify-self-center top-5 bottom-2'>Buy now</button>
